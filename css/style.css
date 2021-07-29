@@ -121,3 +121,23 @@ header{
     line-height: 24px;
     margin-top: -25px;
 }
+
+/* topic starts */
+
+.card-1,.card-2,.card-3{
+    border: none !important;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-title{
+    color: #E77C40;
+}
+
+
+/* contact-us starts */
+
+.contact-us{
+    background-color: #00EAD3;
+}
