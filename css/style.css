@@ -94,6 +94,10 @@ header{
     filter: grayscale(100%);
 }
 
+.single-feture{
+    overflow: hidden;
+}
+
 .card-border img{
     transition: .4s transform;
 }
