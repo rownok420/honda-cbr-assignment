@@ -49,6 +49,14 @@ header{
     text-align:justify;
 }
 
+.header-image img{
+    transition: .4s transform;
+}
+
+.header-row:hover .header-image img{
+    transform: scale(1.1);
+}
+
 /* fetured bikes starts  */
 
 .section-heading{
@@ -86,6 +94,12 @@ header{
     filter: grayscale(100%);
 }
 
+.card-border img{
+    transition: .4s transform;
+}
+.single-feture:hover .card-border img{
+    transform: translateX(-30px);
+}
 
 /* latest news starts  */
 
@@ -94,6 +108,19 @@ header{
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+
+
+.card-shadow{
+    overflow: hidden;
+}
+
+.card-shadow img{
+    transition: .4s transform;
+}
+
+.latest-card:hover .card-shadow img{
+    transform: scale(1.1);
 }
 
 /* clients starts  */
@@ -140,4 +167,14 @@ header{
 
 .contact-us{
  background-color: #00EAD3;
+}
+
+/* social icon starts  */
+
+.social-icon i{
+    transition: .4s transform;
+}
+
+.social-icon i:hover{
+    transform: translateY(-20px);
 }
